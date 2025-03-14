@@ -33,7 +33,7 @@ interface QRCodeGeneratorProps {
 }
 
 export default function QRCodeGenerator({ translations }: QRCodeGeneratorProps) {
-  const [url, setUrl] = useState("https://qrcodex.com")
+  const [url, setUrl] = useState("https://qrcodex.online")
   const [qrCode, setQRCode] = useState("https://qrcodex.com")
   const [color, setColor] = useState("#000000")
   const [backgroundColor, setBackgroundColor] = useState("#ffffff")
